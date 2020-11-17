@@ -17,10 +17,10 @@
     <link href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css" rel="stylesheet" />
 
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 </head>
 <body>
@@ -262,7 +262,7 @@
   </section>
 
 <!--===== TESTIMONIALS =====-->
-<section class="testimonials-section">
+<!-- <section class="testimonials-section">
     <div class="container">
       <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 testimonials">
@@ -275,7 +275,7 @@
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
           <!-- Wrapper for carousel items -->
-          <div class="carousel-inner">
+          <!-- <div class="carousel-inner">
             <div class="item carousel-item active">
               <div class="control-testimonial">
               <div class="img-box"><img src="images/people1.jpg" alt=""></div>
@@ -307,7 +307,7 @@
 
               <p class="testimonial"><span></span>"The SoDo app helped me in finding the right person for my business. It's features and functions are attractive and easy to use"</p>
 
-            </div>
+            </div> -->
 
             <!-- <div class="item carousel-item">
               <div class="img-box"><img src="images/people3.jpg" alt=""></div>
@@ -318,7 +318,7 @@
               <p class="overview"><b>- Michael Holz</b></p>
               <h6 class="company-name">Nations Trust Bank</h6>
             </div> -->
-
+<!-- 
              <div class="item carousel-item">
                <div class="control-testimonial">
               <div class="img-box"><img src="images/people3.jpg" alt=""></div>
@@ -334,7 +334,7 @@
             </div>
              </div>
 
-          </div>
+          </div> -->
           <!-- Carousel controls -->
           <!-- <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
             <i class="fa fa-angle-left"></i>
@@ -342,14 +342,59 @@
           <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
             <i class="fa fa-angle-right"></i>
           </a> -->
-        </div>
+        <!-- </div>
       </div>
     </div>
 
     </div>
   </div>
-  </section>
-
+  </section> --> 
+  <div class="testimonial-section">
+    <div class="titlesection">
+      <h2 class="testimonialtitle" style="color:black">Our End-Users Love Us</h2>
+    </div>
+    <div class="testimonial-carousel section-padding owl-carousel owl-theme">
+      <div class="testimonial">
+        <p>"The concept of the app is very innovative. It helps to find the right person as per work requirements. Also, this app does not contain unwanted ads or any bugs"</p>
+        <div class="area">
+      <div class="img-area">
+        <img src = "images/people1.jpg">
+      </div>
+      <div class="test-text">
+        <h2>Amazing App!</h2>
+        <p>Paula Wilson</p>
+        <p>National trust bank</p>
+      </div>
+    </div>
+    </div>
+    <div class="testimonial">
+      <p>"The SoDo app helped me in finding the right person for my business. It's features and functions are attractive and easy to use"</p>
+      <div class="area">
+    <div class="img-area">
+      <img src = "https://www.eharmony.com/dating-advice/wp-content/uploads/images/goodsmile.jpg">
+    </div>
+    <div class="test-text">
+      <h2>Amazing App!</h2>
+      <p>Antonio Moreno</p>
+      <p>National trust bank</p>
+    </div>
+  </div>
+  </div>
+  <div class="testimonial">
+    <p>Sodo services has been a guiding light for making my own app. Sodo team  collaborated from basic building till application testing and its launch</p>
+    <div class="area">
+  <div class="img-area">
+    <img src = "images/people3.jpg">
+  </div>
+  <div class="test-text">
+    <h2>Amazing App!</h2>
+    <p>Michael Holz</p>
+    <p>Nations Trust Bank</p>
+  </div>
+</div>
+</div>
+  </div>
+  </div>
 
 
 
@@ -802,22 +847,19 @@ new WOW().init();
 </script>
 
 <script>
-$('.owl-carousel').owlCarousel({
+$('.testimonial-carousel').owlCarousel({
   loop:true,
-  margin:15,
-  nav:false,
+  margin:20,
   autoplay:true,
-  autoplayTimeout: 2000,
-  autoplayHoverPause: true,
   responsive:{
       0:{
           items:1
       },
       600:{
-          items:3
+          items:2
       },
       1000:{
-          items:4
+          items:3
       }
   }
 })
@@ -833,10 +875,10 @@ $('.one-time').slick({
     <script src="owl.carousel.min.js"></script>
     <script src="js/jquery.countTo.js"></script>-->
     <button class="btn scroll-top"  data-scroll="up" type="button">
-    <a class="page-scroll " href="#home">
-    <i class="fa fa-chevron-up"></i>
-    </a>
-    </button>
+      <a class="page-scroll " href="#home">
+      <i class="fa fa-chevron-up"></i>
+      </a>
+      </button>
 
 
 </body>
