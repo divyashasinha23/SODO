@@ -12,6 +12,16 @@ $(window).on('scroll', function (event) {
       $(".navbar .navbar-brand img").attr("src", "images/logo.png");
   }
 });
+$(window).on('scroll',function(event){
+  var scroll= $(window).scrollTop();
+    if (scroll < 20) {
+      $(".navbar-area1").removeClass("sticky");
+      $(".navbar .navbar-brand img").attr("src", "images/logo.png");
+  } else {
+      $(".navbar-area1").addClass("sticky");
+      $(".navbar .navbar-brand img").attr("src", "images/logo.png");
+  }
+});
 
   //===== Section Menu Active
 

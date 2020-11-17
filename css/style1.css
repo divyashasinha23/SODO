@@ -219,6 +219,22 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
 
+
+  .navbar-area1 {
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index: 99;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+
 .sticky {
   position: fixed;
   z-index: 99;
@@ -715,6 +731,7 @@ padding-left : 10px;
   position: relative;
   z-index: 2;
   overflow: hidden;
+  padding-right: 10px;
 }
 .intro-section .section-header{
   margin-bottom:90px;
@@ -732,7 +749,7 @@ padding-left : 10px;
 }
 .icon-feature{
 	position:relative;
-	margin-bottom:20px;
+  margin-bottom:20px;
 }
 .icon-feature > .icon{
 	position:absolute;
@@ -763,7 +780,7 @@ padding-left : 10px;
 @media only screen and (min-width: 767px) and (max-width: 991px){
   .intro-section{
     padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 30px;
   }
   .icon-feature{
     position:relative;
@@ -887,7 +904,6 @@ padding-left : 10px;
 @media only screen and (min-width: 767px) and (max-width: 991px){
   .features-section{
     padding-left: 20px;
-  padding-right: 20px;
   }
 }
 
@@ -1695,4 +1711,9 @@ margin-bottom:15px;
 .what{
   color:#000000;
 }
-/* Testimonials */
+@media (max-width : 900px) {
+  .foot
+{
+padding-left: 30px;
+}
+}
