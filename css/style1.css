@@ -860,7 +860,7 @@ padding-left : 10px;
   width: auto;
 }
 .features-section{
-  background-color: lightgrey;
+  background-color: #DCDCDC;
   padding:100px 0px;
   padding-bottom: 20px;
   padding-top :60px;
@@ -928,12 +928,13 @@ padding-left : 10px;
 #screenshots {
   /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;*/
-  padding: 50px 30px 0px;
+  padding: 50px 30px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   /*min-height: 100vh;*/
   background: #000000;
+  
 }
 #screenshots h2{
   color: #ffffff;
@@ -948,7 +949,7 @@ padding-left : 10px;
   background-position: center;
   background-size:cover;
   width: 300px;
-  height: 500px;
+  height: 550px;
   /*background-color:transparent;*/
 
 }
@@ -1255,7 +1256,7 @@ padding-left : 10px;
 }
 }
 .testimonial-container{
-  background-color: lightgrey;
+  background-color: #ffffff;
 }
 .testimonial-section{
   margin:0 auto;
@@ -1434,7 +1435,7 @@ padding-left : 10px;
   transition: all .4s ease-in-out;
 }
 .increase{
-  height: 345px;
+  height: 385px;
 }
 
 .content-area:hover img{
@@ -1620,11 +1621,16 @@ margin-bottom:15px;
           -o-transition:all .3s ease-out 0s;
           transition:all .3s ease-out 0s}
           @media(max-width:767px){
+            .blog{
+              padding-bottom: 10px;
+            }
             .single-blog .blog-content .blog-text .blog-title a{
-              font-size:18px}}
+              font-size:18px;
+            }}
           @media only screen and (min-width:576px) and (max-width:767px){
             .single-blog .blog-content .blog-text .blog-title a{
-              font-size:22px}}
+              font-size:22px;
+            }}
             .single-blog .blog-content .blog-text .blog-title a:hover{
               color:#fe8464}
             .single-blog .blog-content .blog-text .text{
