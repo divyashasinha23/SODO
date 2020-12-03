@@ -1383,7 +1383,7 @@ padding-left : 10px;
 
 
 #team{
-  background-color: lightgrey;
+  background-color: #eeeeee;
   padding: 50px 10px 50px 0;
   margin: auto;
 }
@@ -1514,7 +1514,7 @@ padding-left : 10px;
 
 /*=== FAQs ===*/
 #faq{
-  background-color: lightgrey;
+  background-color: #eeeeee;
   padding: 50px 0 50px 0;
   margin: auto;
 }
